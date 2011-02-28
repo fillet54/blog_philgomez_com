@@ -1,0 +1,11 @@
+#Wordpress specific excludes
+.htaccess
+sitemap.xml*
+wp-config.php
+wp-content/cache
+wp-content/blogs.dir/*
+wp-content/uploads
+
+#Exclude cache directory from theme
+wp-content/themes/*/cache
+
